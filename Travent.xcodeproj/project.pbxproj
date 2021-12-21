@@ -12,6 +12,8 @@
 		5E0B00A127718895006A8A74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
 		5E0B00A227718898006A8A74 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
 		5E0B00A927718CDA006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B00A827718CDA006A8A74 /* Argon */; };
+		5E0B00C3277195CF006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B00C2277195CF006A8A74 /* Argon */; };
+		5E0B00C52771960C006A8A74 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0B00C42771960C006A8A74 /* AppKit.framework */; platformFilter = maccatalyst; };
 		5E158AD627717BB000C59E87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD527717BB000C59E87 /* Tests_iOS.swift */; };
 		5E158AD827717BB000C59E87 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD727717BB000C59E87 /* Tests_iOSLaunchTests.swift */; };
 		5E158AE227717BB000C59E87 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AE127717BB000C59E87 /* Tests_macOS.swift */; };
@@ -60,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		5E0B00A727718C5B006A8A74 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
+		5E0B00C42771960C006A8A74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5E158ABD27717BAC00C59E87 /* TraventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraventApp.swift; sourceTree = "<group>"; };
 		5E158ABE27717BAC00C59E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E158ABF27717BB000C59E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0B00C52771960C006A8A74 /* AppKit.framework in Frameworks */,
+				5E0B00C3277195CF006A8A74 /* Argon in Frameworks */,
 				5E0B00A027718889006A8A74 /* ArgonServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +192,7 @@
 		5E158B0927717CA800C59E87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E0B00C42771960C006A8A74 /* AppKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 			name = TraventServer;
 			packageProductDependencies = (
 				5E0B009F27718889006A8A74 /* ArgonServer */,
+				5E0B00C2277195CF006A8A74 /* Argon */,
 			);
 			productName = TraventServer;
 			productReference = 5E326710277184E800B0B4DE /* TraventServer */;
@@ -885,6 +892,10 @@
 			productName = ArgonServer;
 		};
 		5E0B00A827718CDA006A8A74 /* Argon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Argon;
+		};
+		5E0B00C2277195CF006A8A74 /* Argon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Argon;
 		};

@@ -8,5 +8,6 @@
 import Foundation
 import ArgonServer
 
-print("Hello, World!")
-
+let c = Config()
+let server = ARServer(routes: c.routes)
+server.listen()

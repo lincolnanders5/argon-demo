@@ -8,7 +8,8 @@
 import Foundation
 import Argon
 
-
-let routes = [
-	User.routes()
-]
+public struct Config {
+	let routes = [
+		User.routes()
+	]
+}
