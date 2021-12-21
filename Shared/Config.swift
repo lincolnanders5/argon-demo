@@ -10,5 +10,5 @@ import Argon
 
 
 let routes = [
-	User.routes(.all)
+	User.routes()
 ]

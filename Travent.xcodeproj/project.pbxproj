@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E0B009C27718877006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009B27718877006A8A74 /* Argon */; };
 		5E0B009E27718884006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009D27718884006A8A74 /* Argon */; };
 		5E0B00A027718889006A8A74 /* ArgonServer in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009F27718889006A8A74 /* ArgonServer */; };
 		5E0B00A127718895006A8A74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
 		5E0B00A227718898006A8A74 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
+		5E0B00A927718CDA006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B00A827718CDA006A8A74 /* Argon */; };
 		5E158AD627717BB000C59E87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD527717BB000C59E87 /* Tests_iOS.swift */; };
 		5E158AD827717BB000C59E87 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD727717BB000C59E87 /* Tests_iOSLaunchTests.swift */; };
 		5E158AE227717BB000C59E87 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AE127717BB000C59E87 /* Tests_macOS.swift */; };
@@ -59,18 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E0B008427718810006A8A74 /* ArgonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgonTests.swift; sourceTree = "<group>"; };
-		5E0B008527718810006A8A74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5E0B008627718810006A8A74 /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
-		5E0B008727718810006A8A74 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		5E0B008827718810006A8A74 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		5E0B008B27718810006A8A74 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5E0B008C27718810006A8A74 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
-		5E0B008E27718810006A8A74 /* Model+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Fluent.swift"; sourceTree = "<group>"; };
-		5E0B008F27718810006A8A74 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
-		5E0B009227718810006A8A74 /* package.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = package.xcworkspace; sourceTree = "<group>"; };
-		5E0B009627718810006A8A74 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
-		5E0B00982771884F006A8A74 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
+		5E0B00A727718C5B006A8A74 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
 		5E158ABD27717BAC00C59E87 /* TraventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraventApp.swift; sourceTree = "<group>"; };
 		5E158ABE27717BAC00C59E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E158ABF27717BB000C59E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,7 +76,6 @@
 		5E326709277183B100B0B4DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5E326710277184E800B0B4DE /* TraventServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TraventServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E326712277184E800B0B4DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		5E3267172771851400B0B4DE /* Package.resolved */ = {isa = PBXFileReference; explicitFileType = text.json; name = Package.resolved; path = ../Argon/Package.resolved; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0B009C27718877006A8A74 /* Argon in Frameworks */,
+				5E0B00A927718CDA006A8A74 /* Argon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,116 +120,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E0B008127718810006A8A74 /* Argon */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008227718810006A8A74 /* Tests */,
-				5E0B008527718810006A8A74 /* README.md */,
-				5E0B008627718810006A8A74 /* Package.resolved */,
-				5E0B008727718810006A8A74 /* .gitignore */,
-				5E0B008827718810006A8A74 /* Package.swift */,
-				5E0B008927718810006A8A74 /* Sources */,
-				5E0B009027718810006A8A74 /* .swiftpm */,
-			);
-			path = Argon;
-			sourceTree = "<group>";
-		};
-		5E0B008227718810006A8A74 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008327718810006A8A74 /* ArgonTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		5E0B008327718810006A8A74 /* ArgonTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008427718810006A8A74 /* ArgonTests.swift */,
-			);
-			path = ArgonTests;
-			sourceTree = "<group>";
-		};
-		5E0B008927718810006A8A74 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008A27718810006A8A74 /* Argon */,
-				5E0B008D27718810006A8A74 /* ArgonServer */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		5E0B008A27718810006A8A74 /* Argon */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008B27718810006A8A74 /* Model.swift */,
-				5E0B008C27718810006A8A74 /* Route.swift */,
-			);
-			path = Argon;
-			sourceTree = "<group>";
-		};
-		5E0B008D27718810006A8A74 /* ArgonServer */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B008E27718810006A8A74 /* Model+Fluent.swift */,
-				5E0B008F27718810006A8A74 /* Server.swift */,
-			);
-			path = ArgonServer;
-			sourceTree = "<group>";
-		};
-		5E0B009027718810006A8A74 /* .swiftpm */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B009127718810006A8A74 /* xcode */,
-			);
-			path = .swiftpm;
-			sourceTree = "<group>";
-		};
-		5E0B009127718810006A8A74 /* xcode */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B009227718810006A8A74 /* package.xcworkspace */,
-				5E0B009327718810006A8A74 /* xcuserdata */,
-			);
-			path = xcode;
-			sourceTree = "<group>";
-		};
-		5E0B009327718810006A8A74 /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B009427718810006A8A74 /* lincolnanders.xcuserdatad */,
-			);
-			path = xcuserdata;
-			sourceTree = "<group>";
-		};
-		5E0B009427718810006A8A74 /* lincolnanders.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B009527718810006A8A74 /* xcschemes */,
-			);
-			path = lincolnanders.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		5E0B009527718810006A8A74 /* xcschemes */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B009627718810006A8A74 /* xcschememanagement.plist */,
-			);
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		5E0B00972771884F006A8A74 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B00982771884F006A8A74 /* Argon */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		5E158AB727717BAC00C59E87 = {
 			isa = PBXGroup;
 			children = (
-				5E0B00972771884F006A8A74 /* Packages */,
+				5E0B00A727718C5B006A8A74 /* Argon */,
 				5E158ABC27717BAC00C59E87 /* Shared */,
 				5E158ACB27717BB000C59E87 /* macOS */,
 				5E158AD427717BB000C59E87 /* Tests iOS */,
@@ -305,8 +187,6 @@
 		5E158B0927717CA800C59E87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E0B008127718810006A8A74 /* Argon */,
-				5E3267172771851400B0B4DE /* Package.resolved */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -344,7 +224,7 @@
 			);
 			name = "Travent (iOS)";
 			packageProductDependencies = (
-				5E0B009B27718877006A8A74 /* Argon */,
+				5E0B00A827718CDA006A8A74 /* Argon */,
 			);
 			productName = "Travent (iOS)";
 			productReference = 5E158AC427717BB000C59E87 /* Travent.app */;
@@ -996,10 +876,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5E0B009B27718877006A8A74 /* Argon */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Argon;
-		};
 		5E0B009D27718884006A8A74 /* Argon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Argon;
@@ -1007,6 +883,10 @@
 		5E0B009F27718889006A8A74 /* ArgonServer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ArgonServer;
+		};
+		5E0B00A827718CDA006A8A74 /* Argon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Argon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
