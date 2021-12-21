@@ -10,6 +10,7 @@ import Argon
 
 public struct Config {
 	let routes = [
-		User.routes()
+		User.routes(),
+		Admin.routes()
 	]
 }

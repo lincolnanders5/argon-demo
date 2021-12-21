@@ -14,3 +14,7 @@ open class User: ARModel {
 	
 	public required init() {}
 }
+
+open class Admin: User {
+	public required init() {}
+}

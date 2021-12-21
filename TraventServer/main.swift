@@ -10,4 +10,5 @@ import ArgonServer
 
 let c = Config()
 let server = ARServer(routes: c.routes)
+
 server.listen()
