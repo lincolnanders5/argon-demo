@@ -9,3 +9,6 @@ import Foundation
 import Argon
 
 
+let routes = [
+	User.routes(.all)
+]

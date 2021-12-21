@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0B009C27718877006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009B27718877006A8A74 /* Argon */; };
+		5E0B009E27718884006A8A74 /* Argon in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009D27718884006A8A74 /* Argon */; };
+		5E0B00A027718889006A8A74 /* ArgonServer in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0B009F27718889006A8A74 /* ArgonServer */; };
+		5E0B00A127718895006A8A74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
+		5E0B00A227718898006A8A74 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
 		5E158AD627717BB000C59E87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD527717BB000C59E87 /* Tests_iOS.swift */; };
 		5E158AD827717BB000C59E87 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AD727717BB000C59E87 /* Tests_iOSLaunchTests.swift */; };
 		5E158AE227717BB000C59E87 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AE127717BB000C59E87 /* Tests_macOS.swift */; };
@@ -19,8 +24,9 @@
 		5E158AEA27717BB000C59E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E158ABF27717BB000C59E87 /* Assets.xcassets */; };
 		5E158AFB27717BEE00C59E87 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
 		5E158AFC27717BEE00C59E87 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
-		5E3267042771828800B0B4DE /* Argon in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFCCCA127717D1A00321A53 /* Argon */; };
-		5EFCCCA227717D7200321A53 /* Argon in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFCCCA127717D1A00321A53 /* Argon */; };
+		5E32670A277183B100B0B4DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
+		5E32670B277183B100B0B4DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
+		5E326713277184E800B0B4DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326712277184E800B0B4DE /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5E32670E277184E800B0B4DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E0B008427718810006A8A74 /* ArgonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgonTests.swift; sourceTree = "<group>"; };
+		5E0B008527718810006A8A74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E0B008627718810006A8A74 /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
+		5E0B008727718810006A8A74 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5E0B008827718810006A8A74 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		5E0B008B27718810006A8A74 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5E0B008C27718810006A8A74 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		5E0B008E27718810006A8A74 /* Model+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Fluent.swift"; sourceTree = "<group>"; };
+		5E0B008F27718810006A8A74 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		5E0B009227718810006A8A74 /* package.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = package.xcworkspace; sourceTree = "<group>"; };
+		5E0B009627718810006A8A74 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		5E0B00982771884F006A8A74 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
 		5E158ABD27717BAC00C59E87 /* TraventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraventApp.swift; sourceTree = "<group>"; };
 		5E158ABE27717BAC00C59E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E158ABF27717BB000C59E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,8 +84,10 @@
 		5E158AE127717BB000C59E87 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5E158AE327717BB000C59E87 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		5E158AFA27717BEE00C59E87 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		5E326707277182FF00B0B4DE /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
-		5EFCCCA127717D1A00321A53 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
+		5E326709277183B100B0B4DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5E326710277184E800B0B4DE /* TraventServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TraventServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E326712277184E800B0B4DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E3267172771851400B0B4DE /* Package.resolved */ = {isa = PBXFileReference; explicitFileType = text.json; name = Package.resolved; path = ../Argon/Package.resolved; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3267042771828800B0B4DE /* Argon in Frameworks */,
+				5E0B009C27718877006A8A74 /* Argon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFCCCA227717D7200321A53 /* Argon in Frameworks */,
+				5E0B009E27718884006A8A74 /* Argon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,18 +121,133 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E32670D277184E800B0B4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0B00A027718889006A8A74 /* ArgonServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0B008127718810006A8A74 /* Argon */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008227718810006A8A74 /* Tests */,
+				5E0B008527718810006A8A74 /* README.md */,
+				5E0B008627718810006A8A74 /* Package.resolved */,
+				5E0B008727718810006A8A74 /* .gitignore */,
+				5E0B008827718810006A8A74 /* Package.swift */,
+				5E0B008927718810006A8A74 /* Sources */,
+				5E0B009027718810006A8A74 /* .swiftpm */,
+			);
+			path = Argon;
+			sourceTree = "<group>";
+		};
+		5E0B008227718810006A8A74 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008327718810006A8A74 /* ArgonTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5E0B008327718810006A8A74 /* ArgonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008427718810006A8A74 /* ArgonTests.swift */,
+			);
+			path = ArgonTests;
+			sourceTree = "<group>";
+		};
+		5E0B008927718810006A8A74 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008A27718810006A8A74 /* Argon */,
+				5E0B008D27718810006A8A74 /* ArgonServer */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E0B008A27718810006A8A74 /* Argon */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008B27718810006A8A74 /* Model.swift */,
+				5E0B008C27718810006A8A74 /* Route.swift */,
+			);
+			path = Argon;
+			sourceTree = "<group>";
+		};
+		5E0B008D27718810006A8A74 /* ArgonServer */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B008E27718810006A8A74 /* Model+Fluent.swift */,
+				5E0B008F27718810006A8A74 /* Server.swift */,
+			);
+			path = ArgonServer;
+			sourceTree = "<group>";
+		};
+		5E0B009027718810006A8A74 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B009127718810006A8A74 /* xcode */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		5E0B009127718810006A8A74 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B009227718810006A8A74 /* package.xcworkspace */,
+				5E0B009327718810006A8A74 /* xcuserdata */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		5E0B009327718810006A8A74 /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B009427718810006A8A74 /* lincolnanders.xcuserdatad */,
+			);
+			path = xcuserdata;
+			sourceTree = "<group>";
+		};
+		5E0B009427718810006A8A74 /* lincolnanders.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B009527718810006A8A74 /* xcschemes */,
+			);
+			path = lincolnanders.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		5E0B009527718810006A8A74 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B009627718810006A8A74 /* xcschememanagement.plist */,
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		5E0B00972771884F006A8A74 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B00982771884F006A8A74 /* Argon */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		5E158AB727717BAC00C59E87 = {
 			isa = PBXGroup;
 			children = (
+				5E0B00972771884F006A8A74 /* Packages */,
 				5E158ABC27717BAC00C59E87 /* Shared */,
 				5E158ACB27717BB000C59E87 /* macOS */,
 				5E158AD427717BB000C59E87 /* Tests iOS */,
 				5E158AE027717BB000C59E87 /* Tests macOS */,
+				5E326711277184E800B0B4DE /* TraventServer */,
 				5E158AC527717BB000C59E87 /* Products */,
-				5E158B0727717C9A00C59E87 /* Packages */,
 				5E158B0927717CA800C59E87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -124,6 +271,7 @@
 				5E158ACA27717BB000C59E87 /* Travent.app */,
 				5E158AD127717BB000C59E87 /* Tests iOS.xctest */,
 				5E158ADD27717BB000C59E87 /* Tests macOS.xctest */,
+				5E326710277184E800B0B4DE /* TraventServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,18 +302,11 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		5E158B0727717C9A00C59E87 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				5EFCCCA127717D1A00321A53 /* Argon */,
-				5E326707277182FF00B0B4DE /* Argon */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		5E158B0927717CA800C59E87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E0B008127718810006A8A74 /* Argon */,
+				5E3267172771851400B0B4DE /* Package.resolved */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,8 +314,17 @@
 		5E3267082771835700B0B4DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5E326709277183B100B0B4DE /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5E326711277184E800B0B4DE /* TraventServer */ = {
+			isa = PBXGroup;
+			children = (
+				5E326712277184E800B0B4DE /* main.swift */,
+			);
+			path = TraventServer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +341,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5E3267062771829000B0B4DE /* PBXTargetDependency */,
 			);
 			name = "Travent (iOS)";
+			packageProductDependencies = (
+				5E0B009B27718877006A8A74 /* Argon */,
+			);
 			productName = "Travent (iOS)";
 			productReference = 5E158AC427717BB000C59E87 /* Travent.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +363,9 @@
 			dependencies = (
 			);
 			name = "Travent (macOS)";
+			packageProductDependencies = (
+				5E0B009D27718884006A8A74 /* Argon */,
+			);
 			productName = "Travent (macOS)";
 			productReference = 5E158ACA27717BB000C59E87 /* Travent.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +406,26 @@
 			productReference = 5E158ADD27717BB000C59E87 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5E32670F277184E800B0B4DE /* TraventServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E326714277184E800B0B4DE /* Build configuration list for PBXNativeTarget "TraventServer" */;
+			buildPhases = (
+				5E32670C277184E800B0B4DE /* Sources */,
+				5E32670D277184E800B0B4DE /* Frameworks */,
+				5E32670E277184E800B0B4DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraventServer;
+			packageProductDependencies = (
+				5E0B009F27718889006A8A74 /* ArgonServer */,
+			);
+			productName = TraventServer;
+			productReference = 5E326710277184E800B0B4DE /* TraventServer */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -275,6 +450,9 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 5E158AC927717BB000C59E87;
 					};
+					5E32670F277184E800B0B4DE = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = 5E158ABB27717BAC00C59E87 /* Build configuration list for PBXProject "Travent" */;
@@ -287,7 +465,6 @@
 			);
 			mainGroup = 5E158AB727717BAC00C59E87;
 			packageReferences = (
-				5E158B0127717C3B00C59E87 /* XCRemoteSwiftPackageReference "Argon" */,
 			);
 			productRefGroup = 5E158AC527717BB000C59E87 /* Products */;
 			projectDirPath = "";
@@ -297,6 +474,7 @@
 				5E158AC927717BB000C59E87 /* Travent (macOS) */,
 				5E158AD027717BB000C59E87 /* Tests iOS */,
 				5E158ADC27717BB000C59E87 /* Tests macOS */,
+				5E32670F277184E800B0B4DE /* TraventServer */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E32670A277183B100B0B4DE /* User.swift in Sources */,
 				5E158AE727717BB000C59E87 /* ContentView.swift in Sources */,
 				5E158AE527717BB000C59E87 /* TraventApp.swift in Sources */,
 				5E158AFB27717BEE00C59E87 /* Config.swift in Sources */,
@@ -349,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E32670B277183B100B0B4DE /* User.swift in Sources */,
 				5E158AE827717BB000C59E87 /* ContentView.swift in Sources */,
 				5E158AE627717BB000C59E87 /* TraventApp.swift in Sources */,
 				5E158AFC27717BEE00C59E87 /* Config.swift in Sources */,
@@ -373,6 +553,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E32670C277184E800B0B4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0B00A127718895006A8A74 /* User.swift in Sources */,
+				5E326713277184E800B0B4DE /* main.swift in Sources */,
+				5E0B00A227718898006A8A74 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -385,10 +575,6 @@
 			isa = PBXTargetDependency;
 			target = 5E158AC927717BB000C59E87 /* Travent (macOS) */;
 			targetProxy = 5E158ADE27717BB000C59E87 /* PBXContainerItemProxy */;
-		};
-		5E3267062771829000B0B4DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 5E3267052771829000B0B4DE /* Argon */;
 		};
 /* End PBXTargetDependency section */
 
@@ -726,6 +912,30 @@
 			};
 			name = Release;
 		};
+		5E326715277184E800B0B4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM86A3X2SX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E326716277184E800B0B4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM86A3X2SX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -774,23 +984,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5E326714277184E800B0B4DE /* Build configuration list for PBXNativeTarget "TraventServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E326715277184E800B0B4DE /* Debug */,
+				5E326716277184E800B0B4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		5E158B0127717C3B00C59E87 /* XCRemoteSwiftPackageReference "Argon" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lincolnanders5/Argon";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		5E3267052771829000B0B4DE /* Argon */ = {
+		5E0B009B27718877006A8A74 /* Argon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Argon;
+		};
+		5E0B009D27718884006A8A74 /* Argon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Argon;
+		};
+		5E0B009F27718889006A8A74 /* ArgonServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArgonServer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
