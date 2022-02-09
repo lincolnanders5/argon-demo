@@ -8,9 +8,11 @@
 import Foundation
 import Argon
 
-public struct Config {
-	let routes = [
+public struct Config: ARConfig {
+	public static let routes = [
 		User.routes(),
 		Admin.routes()
 	]
+    
+    public static let wc = WebCommunicator("http://192.168.1.151:3000")
 }

@@ -20,8 +20,6 @@
 		5E158AE427717BB000C59E87 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AE327717BB000C59E87 /* Tests_macOSLaunchTests.swift */; };
 		5E158AE527717BB000C59E87 /* TraventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158ABD27717BAC00C59E87 /* TraventApp.swift */; };
 		5E158AE627717BB000C59E87 /* TraventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158ABD27717BAC00C59E87 /* TraventApp.swift */; };
-		5E158AE727717BB000C59E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158ABE27717BAC00C59E87 /* ContentView.swift */; };
-		5E158AE827717BB000C59E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158ABE27717BAC00C59E87 /* ContentView.swift */; };
 		5E158AE927717BB000C59E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E158ABF27717BB000C59E87 /* Assets.xcassets */; };
 		5E158AEA27717BB000C59E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E158ABF27717BB000C59E87 /* Assets.xcassets */; };
 		5E158AFB27717BEE00C59E87 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E158AFA27717BEE00C59E87 /* Config.swift */; };
@@ -29,6 +27,16 @@
 		5E32670A277183B100B0B4DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
 		5E32670B277183B100B0B4DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326709277183B100B0B4DE /* User.swift */; };
 		5E326713277184E800B0B4DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E326712277184E800B0B4DE /* main.swift */; };
+		8A1CE46A27B1CCF80027D203 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46927B1CCF80027D203 /* Notification.swift */; };
+		8A1CE46B27B1CCF80027D203 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46927B1CCF80027D203 /* Notification.swift */; };
+		8A1CE46C27B1CCF80027D203 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46927B1CCF80027D203 /* Notification.swift */; };
+		8A1CE46D27B1CCF80027D203 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46927B1CCF80027D203 /* Notification.swift */; };
+		8A1CE46E27B1CCF80027D203 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46927B1CCF80027D203 /* Notification.swift */; };
+		8A1CE47027B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
+		8A1CE47127B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
+		8A1CE47227B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
+		8A1CE47327B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
+		8A1CE47427B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +72,6 @@
 		5E0B00A727718C5B006A8A74 /* Argon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Argon; path = ../Argon; sourceTree = "<group>"; };
 		5E0B00C42771960C006A8A74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5E158ABD27717BAC00C59E87 /* TraventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraventApp.swift; sourceTree = "<group>"; };
-		5E158ABE27717BAC00C59E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E158ABF27717BB000C59E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E158AC427717BB000C59E87 /* Travent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E158ACA27717BB000C59E87 /* Travent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +86,8 @@
 		5E326709277183B100B0B4DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5E326710277184E800B0B4DE /* TraventServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TraventServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E326712277184E800B0B4DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A1CE46927B1CCF80027D203 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +154,7 @@
 				5E3267082771835700B0B4DE /* Models */,
 				5E158AFA27717BEE00C59E87 /* Config.swift */,
 				5E158ABD27717BAC00C59E87 /* TraventApp.swift */,
-				5E158ABE27717BAC00C59E87 /* ContentView.swift */,
+				8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */,
 				5E158ABF27717BB000C59E87 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -201,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				5E326709277183B100B0B4DE /* User.swift */,
+				8A1CE46927B1CCF80027D203 /* Notification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -405,9 +415,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E32670A277183B100B0B4DE /* User.swift in Sources */,
-				5E158AE727717BB000C59E87 /* ContentView.swift in Sources */,
+				8A1CE46A27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E158AE527717BB000C59E87 /* TraventApp.swift in Sources */,
 				5E158AFB27717BEE00C59E87 /* Config.swift in Sources */,
+				8A1CE47027B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +427,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E32670B277183B100B0B4DE /* User.swift in Sources */,
-				5E158AE827717BB000C59E87 /* ContentView.swift in Sources */,
+				8A1CE46B27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E158AE627717BB000C59E87 /* TraventApp.swift in Sources */,
 				5E158AFC27717BEE00C59E87 /* Config.swift in Sources */,
+				8A1CE47127B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +440,8 @@
 			files = (
 				5E158AD827717BB000C59E87 /* Tests_iOSLaunchTests.swift in Sources */,
 				5E158AD627717BB000C59E87 /* Tests_iOS.swift in Sources */,
+				8A1CE46C27B1CCF80027D203 /* Notification.swift in Sources */,
+				8A1CE47227B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +451,8 @@
 			files = (
 				5E158AE427717BB000C59E87 /* Tests_macOSLaunchTests.swift in Sources */,
 				5E158AE227717BB000C59E87 /* Tests_macOS.swift in Sources */,
+				8A1CE46D27B1CCF80027D203 /* Notification.swift in Sources */,
+				8A1CE47327B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +460,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1CE46E27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E0B00A127718895006A8A74 /* User.swift in Sources */,
 				5E326713277184E800B0B4DE /* main.swift in Sources */,
+				8A1CE47427B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 				5E0B00A227718898006A8A74 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,12 +9,14 @@ import Foundation
 import Argon
 import SerializedSwift
 
-open class User: ARModel {
+final class User: ARModel {
 	@Serialized var email: String?
 	
 	public required init() {}
 }
 
-open class Admin: User {
-	public required init() {}
+final class Admin: ARModel {
+    @Serialized var email: String?
+    
+    public required init() {}
 }

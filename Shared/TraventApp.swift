@@ -11,7 +11,7 @@ import SwiftUI
 struct TraventApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NotificationListView()
         }
     }
 }
