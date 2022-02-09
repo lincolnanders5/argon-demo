@@ -10,7 +10,7 @@ import Argon
 import SerializedSwift
 
 final class Notification: ARModel {
-    static var baseURL = "http://192.168.1.151:3000/notifications"
+    static var baseURL = "https://jsonplaceholder.typicode.com/posts"
     @Serialized var title: String?
     @Serialized var body:  String?
     

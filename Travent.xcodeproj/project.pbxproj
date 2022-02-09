@@ -37,6 +37,10 @@
 		8A1CE47227B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
 		8A1CE47327B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
 		8A1CE47427B1CF8E0027D203 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */; };
+		8A69352027B399D600D3BA28 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69351F27B399D600D3BA28 /* Post.swift */; };
+		8A69352127B399D600D3BA28 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69351F27B399D600D3BA28 /* Post.swift */; };
+		8A69352227B399D600D3BA28 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69351F27B399D600D3BA28 /* Post.swift */; };
+		8A69352627B3AE2B00D3BA28 /* ArgonServer in Frameworks */ = {isa = PBXBuildFile; productRef = 8A69352527B3AE2B00D3BA28 /* ArgonServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,7 @@
 		5E326712277184E800B0B4DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8A1CE46927B1CCF80027D203 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		8A1CE46F27B1CF8E0027D203 /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		8A69351F27B399D600D3BA28 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0B009E27718884006A8A74 /* Argon in Frameworks */,
+				8A69352627B3AE2B00D3BA28 /* ArgonServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +217,7 @@
 			children = (
 				5E326709277183B100B0B4DE /* User.swift */,
 				8A1CE46927B1CCF80027D203 /* Notification.swift */,
+				8A69351F27B399D600D3BA28 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 			name = "Travent (macOS)";
 			packageProductDependencies = (
 				5E0B009D27718884006A8A74 /* Argon */,
+				8A69352527B3AE2B00D3BA28 /* ArgonServer */,
 			);
 			productName = "Travent (macOS)";
 			productReference = 5E158ACA27717BB000C59E87 /* Travent.app */;
@@ -313,6 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8A69352427B3A7BB00D3BA28 /* PBXTargetDependency */,
 			);
 			name = TraventServer;
 			packageProductDependencies = (
@@ -417,6 +426,7 @@
 				5E32670A277183B100B0B4DE /* User.swift in Sources */,
 				8A1CE46A27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E158AE527717BB000C59E87 /* TraventApp.swift in Sources */,
+				8A69352027B399D600D3BA28 /* Post.swift in Sources */,
 				5E158AFB27717BEE00C59E87 /* Config.swift in Sources */,
 				8A1CE47027B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
@@ -429,6 +439,7 @@
 				5E32670B277183B100B0B4DE /* User.swift in Sources */,
 				8A1CE46B27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E158AE627717BB000C59E87 /* TraventApp.swift in Sources */,
+				8A69352127B399D600D3BA28 /* Post.swift in Sources */,
 				5E158AFC27717BEE00C59E87 /* Config.swift in Sources */,
 				8A1CE47127B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 			);
@@ -463,6 +474,7 @@
 				8A1CE46E27B1CCF80027D203 /* Notification.swift in Sources */,
 				5E0B00A127718895006A8A74 /* User.swift in Sources */,
 				5E326713277184E800B0B4DE /* main.swift in Sources */,
+				8A69352227B399D600D3BA28 /* Post.swift in Sources */,
 				8A1CE47427B1CF8E0027D203 /* NotificationListView.swift in Sources */,
 				5E0B00A227718898006A8A74 /* Config.swift in Sources */,
 			);
@@ -480,6 +492,10 @@
 			isa = PBXTargetDependency;
 			target = 5E158AC927717BB000C59E87 /* Travent (macOS) */;
 			targetProxy = 5E158ADE27717BB000C59E87 /* PBXContainerItemProxy */;
+		};
+		8A69352427B3A7BB00D3BA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8A69352327B3A7BB00D3BA28 /* ArgonServer */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,7 +552,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -591,7 +607,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -678,7 +694,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdlander.Travent;
 				PRODUCT_NAME = Travent;
@@ -706,7 +722,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdlander.Travent;
 				PRODUCT_NAME = Travent;
@@ -820,9 +836,12 @@
 		5E326715277184E800B0B4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM86A3X2SX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdlander.TraventServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -832,9 +851,12 @@
 		5E326716277184E800B0B4DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM86A3X2SX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdlander.TraventServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -916,6 +938,14 @@
 		5E0B00C2277195CF006A8A74 /* Argon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Argon;
+		};
+		8A69352327B3A7BB00D3BA28 /* ArgonServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArgonServer;
+		};
+		8A69352527B3AE2B00D3BA28 /* ArgonServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArgonServer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

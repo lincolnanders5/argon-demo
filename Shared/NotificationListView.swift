@@ -12,7 +12,7 @@ struct NotificationListView: View {
     @State var notes: [Notification]?
     
     var body: some View {
-        ARListView(notes, content: { note in
+        ARList(notes, content: { note in
             HStack {
                 Text(note.title ?? "title")
                 Spacer()

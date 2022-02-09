@@ -10,8 +10,7 @@ import Argon
 
 public struct Config: ARConfig {
 	public static let routes = [
-		User.routes(),
-		Admin.routes()
+        Post.routes()
 	]
     
     public static let wc = WebCommunicator("http://192.168.1.151:3000")
