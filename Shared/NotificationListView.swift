@@ -12,16 +12,20 @@ struct NotificationListView: View {
     @State var notes: [Notification]?
     
     var body: some View {
-        // TODO: Consolidate into helper view structure
-        ARListView(&notes) { note in
+        ARListView(notes, content: { note in
             HStack {
                 Text(note.title ?? "title")
-                ZStack {
+                Spacer()
+                VStack {
                     Text(note.createdAt?.relative ?? "created")
+                        .font(.system(size: 12, weight: .light))
                     Text(note.updatedAt?.relative ?? "updated")
+                        .font(.system(size: 12, weight: .light))
                 }
             }
-        }.body
+        }, populate: {
+            await Notification.fetchInto(&notes)
+        }).body
     }
 }
 
